@@ -158,7 +158,7 @@ width: 500px;
 }
 .bigger_home2{
   height: 130px;
-  width: 100px;
+  width: 500px;
   
 }
 .sidenav {
@@ -221,10 +221,4 @@ font-size: 16px;
 .width{
 width: 650px;
 }
-@media screen and (max-width: 500px) {
-body{
-height: 100%;
-width: 100%;
-}
- 
-}
+
