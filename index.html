@@ -3,6 +3,7 @@
  <head>
   <title>dkboyzzz</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
  </head>
  <body>
   <script src="script.js"></script>
@@ -27,12 +28,31 @@
    </div>
    
    <span style="font-size:30px;cursor:pointer"
-    onclick="openNav()">&#9776</span>
+    onclick="openNav()" class="span">&#9776</span>
    
    
    <br>
-   <div class="bigger_home2">
-    
+   <button onclick="aA()" id="button_1" class="button"
+    style="width:auto;">Login</button> <br>
+   <div id="login_" class="login_1_bckgrnd">
+    <div class="login_1">
+     <div class="login_1_content animate">
+      <div class="login_margin">
+       <span onclick="bB()" class="close1"
+        title="Close">&times;</span>
+       <p id="user"><b>Username</b></p>
+       <input id="username" placeholder="Enter Username"
+        class="input">
+       <p id="pass"><b>Password</b></p>
+       <input id="password" type="password"
+        placeholder="Enter Kekword" class="input">
+       <button onclick="login()" class="Login_button"
+        id="button_2" title="Login">Login</button>
+       <p id="failure" class="failure" style="strong">
+       </p>
+      </div>
+     </div>
+    </div>
    </div>
   </div>
  </body>
