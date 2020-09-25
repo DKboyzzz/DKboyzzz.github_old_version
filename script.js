@@ -36,7 +36,7 @@ var x = setInterval(function() {
 }, 1000);
 
 
-
+//side nav
 function openNav() {
  document.getElementById("mySidenav").style.width =
   "250px";
@@ -48,3 +48,67 @@ function closeNav() {
  document.getElementById("mySidenav").style.width = "0";
  document.getElementById("main").style.marginLeft = "0";
 }
+
+
+//click button 1 open login window
+function aA() {
+ if (document.getElementById("login_").style.display ==
+  "none") {
+  document.getElementById("login_").style.display =
+   "initial";
+  document.getElementById("button_1").innerHTML = //login becomes return when login window is out
+   "return";
+ } else {
+  document.getElementById("login_").style.display =
+   "none";
+  document.getElementById("button_1").innerHTML =
+   "Login";
+ }
+}
+
+function bB() {
+ document.getElementById("login_").style.display =
+  "none";
+ document.getElementById("button_1").innerHTML =
+ "Login";
+}
+
+function login() {
+ var username = document.getElementById("username")
+  .value;
+ var password = document.getElementById("password")
+  .value;
+ var failure = document.getElementById("failure")
+ console.log(username + "/" + password);
+ 
+ if (username == "Dkboyzzz") {
+  
+  
+  if (password == "peroninippel") {
+   
+  } else {
+   failure.innerHTML = "Wrong Username or Password";
+   
+  }
+ } else if (username == "Hengover") {
+  if (password == "petit") {
+   
+  } else {
+   failure.innerHTML =
+    "Den Heng ass een klengen Spiller";
+  }
+ } else {
+  failure.innerHTML =
+   "Wrong Username or Password";
+ }
+}
+
+
+
+
+
+
+
+
+
+
