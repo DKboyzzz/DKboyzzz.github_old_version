@@ -3,6 +3,7 @@
  <head>
   <title>Hengover</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
  </head>
  <body>
   <script src="script.js"></script>
@@ -31,6 +32,8 @@
    <div class="countdown">
     <h3 id="demo" ;></h3>
    </div>
+
+
    <div class="width2 gray_bckgrnd">
      <div style="margin-left:15px; margin-right:10px;">
 <p> Dear <b>Hengover, </b></p>
@@ -40,7 +43,18 @@
 </div>
    </div>
    
-   
+
+   <div  class="logged_in_222"  id="logged_in_1">
+   <div class="gray_bckgrnd width21 animate" style="margin-top: 10px;" >
+       <h2>Current Challenge:  <b style="color: rgba(20, 17, 65, 0.95)">1. EL HENGO</b>      <em>(Julien)</em></h2>
+       <div  style="margin:10px;">
+       <em id="current"> DEEN DAAAT HEI WIERKLECH LIEST ASS MEI HOBBY LOS WEI ECH
+       </em>
+       </div>
+     </div>
+    </div>
+
+
    <div class="gray_blue_bckgrnd1 left">
     <h2>Regelen:</h2>
     <ul>
@@ -121,8 +135,8 @@
     </ul>
    </div>
    
-   <div class="gray_blue_bckgrnd2 left" ;>
-    <div>
+   <div class="gray_blue_bckgrnd2 left" >
+    
      <h2>Challenges:</h2>
      <ol>
       <li><em>El Hengo</em>
@@ -164,7 +178,53 @@
      <img class="henri"
       src="https://i.ibb.co/z8KJD3T/IMG-9734.jpg">
     </div>
-   </div>
   </div>
+
+    
+   <button onclick="aA()" id="button_1" class="button"
+    style="width:auto;">Login</button> <br>
+   <div id="login_" class="login_1_bckgrnd">
+    <div class="login_1">
+     <div class="login_1_content animate">
+      <div class="login_margin">
+       <span onclick="bB()" class="close1"
+        title="Close">&times;</span>
+       <p id="user"><b>Username</b></p>
+       <input id="username" placeholder="Enter Username"
+        class="input">
+       <p id="pass"><b>Password</b></p>
+       <input id="password" type="password"
+        placeholder="Enter Kekword" class="input">
+       <button onclick="login()" class="Login_button"
+        id="button_2" title="Login">Login</button>
+       <p id="failure" class="failure" style="strong">
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   
+     <div id="logout_" class="logout_bckgrnd">
+    <div class="logout">
+     <div class="logout_content animate">
+      <div class="login_margin">
+       <span onclick="cC()" class="close1"
+        title="Close">&times;</span>
+       <p> <b> Are you sure you want to log out? </b>
+       </p>
+       <button class="logout_button" id="yes"
+        onclick="logoutYes()">Yes</button> <button
+        class="logout_button" id="no"
+        onclick="logoutNo()">No</button>
+      </div>
+     </div>
+    </div>
+    </div>
+  <br>
+       
+     
+
+
+   </div>
  </body>
 </html>
