@@ -173,17 +173,18 @@ display: none;
 }
 
 .gray_blue_bckgrnd3{
-margin-top: 10px;
+margin-top: 30px;
 height: auto;
-border: 3px solid #AFADD1;
-border-radius: 10px 10px 10px 10px;
 background-color: rgba(95, 92, 149, 0.95);
+border-radius: 8px 8px 8px 8px;
+border: 3px solid #AFADD1;
+width: 1200px;
 }
-video{
-  width: 550px;
-height:  380px;
-padding: 50px;
-
+.video{
+width: 960px;
+height: 600px;
+margin-left: 120px;
+margin-bottom: 20px;
 }
 .videotitel{
   font-size: 20px;
@@ -202,4 +203,40 @@ display: none;
  .width21{
     width: 650px;
   }
+}
+.button_previous_home{
+position: absolute;
+margin: 285px 0 0 10px;
+background-color:rgba(120, 90, 157, 0.95);
+color: white;
+padding: 14px 20px;
+border: 2px solid rgba(255, 255, 255, 0.7);
+cursor: pointer;
+border-radius: 5px 5px 5px 5px;
+font-weight: bold;
+}
+.button_next_home{
+position: absolute;
+margin: 221px 0 0 10px;
+background-color:rgba(120, 90, 157, 0.95);
+color: white;
+padding: 14px 32px 14px 32px  ;
+border: 2px solid rgba(255, 255, 255, 0.7);
+cursor: pointer;
+border-radius: 5px 5px 5px 5px;
+font-weight: bold;
+}
+.button_next_home:hover{
+  background-color:rgba(107, 73, 148, 0.95);
+  color: black;
+}
+.button_previous_home:hover{
+  background-color:rgba(107, 73, 148, 0.95);
+  color: black;
+}
+.onlydk{
+  position:absolute;
+  color:white;
+font-size: 10px;
+margin: 5px 0 0 5px;
 }
