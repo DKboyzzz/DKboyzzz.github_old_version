@@ -89,16 +89,20 @@ var logged_in_hengover = false;
 
 
 function loggedIn() {
+if(logged_in==true){
+  document.getElementById("logged_in_2").style.display = "initial";
+}
  if (logged_in == true || logged_in_hengover == true) {
   document.getElementById("logged_in_1").style.display =
    "initial";
   return crrnt();
  }
- if (logged_in == false && logged_in_hengover ==
+ else if (logged_in == false && logged_in_hengover ==
   false) {
   
   document.getElementById("logged_in_1").style.display =
    "none";
+  document.getElementById("logged_in_2").style.display = "none";
   
  }
 }
@@ -206,12 +210,36 @@ function cC() {
   "none";
 }
 
-//FIR DEN VERSTOPPTEN TEXT
-document.getElementById("current").innerHTML = "test";
-
-
-
-
+//NEXT BUTTON VIDEO
+function next(){
+  var currentVideo = document.getElementById("current_video");
+  var breif = "1. Heng Breif reaction:";
+  var website = "2. Heng Webstie reaction:";
+  if(currentVideo.innerHTML==breif){
+    document.getElementById("current_video").innerHTML =  "2. Heng Webstie reaction:";
+    document.getElementById("video_").src = "https://www.youtube.com/embed/4r3zpsVdUVg";
+  }
+  else if(currentVideo.innerHTML==website){
+    document.getElementById("current_video").innerHTML = "1. Heng Breif reaction:" ;
+   document.getElementById("video_").src = "https://www.youtube.com/embed/Gp-IHiGaay0";
+  }
+  
+}
+//PREVIOUS BUTTON VIDEO
+function previous(){
+  var currentVideo = document.getElementById("current_video");
+  var breif = "1. Heng Breif reaction:";
+  var website = "2. Heng Webstie reaction:";
+  if(currentVideo.innerHTML==breif){
+    document.getElementById("current_video").innerHTML =  "2. Heng Webstie reaction:";
+    document.getElementById("video_").src = "https://www.youtube.com/embed/4r3zpsVdUVg";
+  }
+  else if(currentVideo.innerHTML==website){
+    document.getElementById("current_video").innerHTML = "1. Heng Breif reaction:" ;
+   document.getElementById("video_").src = "https://www.youtube.com/embed/Gp-IHiGaay0";
+  }
+  
+}
 
 
 
