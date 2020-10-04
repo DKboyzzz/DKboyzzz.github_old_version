@@ -214,9 +214,9 @@ function cC() {
 function next(){
   var currentVideo = document.getElementById("current_video");
   var breif = "1. Heng Breif reaction:";
-  var website = "2. Heng Webstie reaction:";
+  var website = "2. Heng Website reaction:";
   if(currentVideo.innerHTML==breif){
-    document.getElementById("current_video").innerHTML =  "2. Heng Webstie reaction:";
+    document.getElementById("current_video").innerHTML =  "2. Heng Website reaction:";
     document.getElementById("video_").src = "https://www.youtube.com/embed/4r3zpsVdUVg";
   }
   else if(currentVideo.innerHTML==website){
@@ -229,9 +229,9 @@ function next(){
 function previous(){
   var currentVideo = document.getElementById("current_video");
   var breif = "1. Heng Breif reaction:";
-  var website = "2. Heng Webstie reaction:";
+  var website = "2. Heng Website reaction:";
   if(currentVideo.innerHTML==breif){
-    document.getElementById("current_video").innerHTML =  "2. Heng Webstie reaction:";
+    document.getElementById("current_video").innerHTML =  "2. Heng Website reaction:";
     document.getElementById("video_").src = "https://www.youtube.com/embed/4r3zpsVdUVg";
   }
   else if(currentVideo.innerHTML==website){
