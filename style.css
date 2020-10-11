@@ -259,4 +259,20 @@ position: fixed;
     85%     {right: 70px;  transform: rotate(10deg);  top:9%;}
     100%   {right: 70px;  transform: rotate(9deg);  top:11%;}
 }
+.skadooosh_back{
+display: none;
+position: fixed;
+bottom: 10%;
+left: 45%;
+background-color: rgba(77, 77, 255, 0.7);
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+z-index: 3;
+border-radius: 5px 5px 5px 5px;
+font-weight: bold;
+text-decoration: none;
+}
 
