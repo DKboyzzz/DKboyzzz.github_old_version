@@ -259,6 +259,7 @@ function skadooosh9() {
 setTimeout(dragonWarrior, 46500); 
 setTimeout(dragonWarrior1, 55800);
 setTimeout(dragonWarrior2, 63500);
+setTimeout(skadoooshBack, 65000); //HOME button(skadooosh)
 
 //dragon warrior functions
 function dragonWarrior(){
@@ -270,7 +271,10 @@ function dragonWarrior1(){
 function dragonWarrior2(){
   document.getElementById("dragon_warrior").src = "https://i.ibb.co/Ld9nxdk/dragon-warrior-red-eyes-2.jpg";
 }
-
+//Home button function
+function skadoooshBack(){
+  document.getElementById("skadooosh_back").style.display = "initial";
+}
 
 
 
