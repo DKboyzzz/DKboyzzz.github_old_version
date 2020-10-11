@@ -251,7 +251,7 @@ function skadooosh8() {
   document.getElementById("skadooosh").style.backgroundColor ="white";
 }
 function skadooosh9() {
-  document.getElementById("demo").style.color = "#FF0078";
+  document.getElementById("demo").style.color = "#FF0000";
   document.getElementById("skadooosh").style.backgroundColor ="gray";
 }
 
